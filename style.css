@@ -100,7 +100,8 @@ body {
   padding: 100px 20px;
   text-align: center;
   border-radius: 32px;
-  margin: 100px 40px;
+  margin-left: 100px;
+  margin-right: 100px;
 }
 
 .productive-users h2 {
@@ -138,6 +139,8 @@ body {
   padding: 100px 20px;
   text-align: center;
   background: #f6f8ff;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .user-feedback h2 {
@@ -158,7 +161,7 @@ body {
   background: #ffffff;
   border-radius: 12px;
   padding: 30px;
-  width: 300px;
+  width: 250px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
   text-align: left;
 }
@@ -185,7 +188,6 @@ body {
   align-items: center;
   gap: 8px;
 }
-
 
 .avatar {
   width: 40px;
@@ -296,8 +298,8 @@ textarea {
 
 .footer-logo {
   color: #3b4fff;
-  font-size: 32px;
-  font-weight: bold;
+  font-size: 100px;
+  font-weight: bolder;
 }
 
 .footer p {
