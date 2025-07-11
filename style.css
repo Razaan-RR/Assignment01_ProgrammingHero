@@ -1,0 +1,304 @@
+body {
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  background: #f6f8ff;
+  color: #121212;
+}
+
+.navbar_banner {
+  background: #f6f8ff;
+  text-align: center;
+  padding: 60px 20px 100px;
+  position: relative;
+  background-image: url('Assets/Hero-bg.png');
+}
+
+.logo {
+  font-family: 'Inter', sans-serif;
+  font-size: 34px;
+  font-weight: bold;
+  color: #4E47FF;
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+
+.signup-button {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  padding: 10px 20px;
+  background: #4E47FF;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.headline h1 {
+  font-size: 36px;
+  line-height: 1.4;
+  margin-top: 100px;
+}
+
+.button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  background: #4E47FF;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.action {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  justify-content: center; 
+  gap: 350px; 
+  padding: 60px 40px;
+}
+
+.action .text {
+  max-width: 500px;
+}
+
+.action h2 {
+  font-size: 24px;
+}
+
+.action p {
+  margin: 20px 0;
+}
+
+.action img {
+  max-width: 100%;
+  border-radius: 12px;
+  margin-top: 20px;
+}
+
+.productive-users {
+  background: #e4e9ff;
+  padding: 100px 20px;
+  text-align: center;
+  border-radius: 32px;
+  margin: 100px 40px;
+}
+
+.productive-users h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 60px;
+  color: #121212;
+  font-family: 'Raleway', sans-serif;
+}
+
+.numbers {
+  display: flex;
+  justify-content: center;
+  gap: 120px;
+  flex-wrap: wrap;
+}
+
+.numbers h3 {
+  font-family: 'Inter', sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0;
+  color: #3b4fff;
+}
+
+.numbers p {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+  color: #121212;
+}
+
+.user-feedback {
+  padding: 100px 20px;
+  text-align: center;
+  background: #f6f8ff;
+}
+
+.user-feedback h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #121212;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 30px;
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+.stars-img {
+  height: 20px;
+  margin-bottom: 16px;
+}
+
+.card h4 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #333;
+  margin: 0 0 20px;
+}
+
+.reviewer-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer-name {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  color: #121212;
+}
+
+.review-date {
+  font-size: 12px;
+  color: #888;
+  margin: 0;
+}
+
+.reviewer-name,
+.review-date {
+  line-height: 0.3;
+}
+
+.get-started {
+  padding: 100px 20px;
+  text-align: center;
+  background: #f6f8ff;
+}
+
+.get-started-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background: white;
+  padding: 60px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.05);
+}
+
+.get-started h2 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #121212;
+  margin-bottom: 10px;
+}
+
+.get-started p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.get-started button {
+  margin-bottom: 40px;
+}
+
+.get-started img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 32px;
+  display: block;
+  margin: 0 auto;
+}
+
+.contact {
+  display: flex;
+  padding: 60px 40px;
+  background: #f2f5ff;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.contact .left {
+  flex: 1;
+  font-size: 32px;
+  font-weight: bold;
+  margin-left: 150px;
+  margin-top: 70px;
+}
+
+.contact .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 12px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  min-height: 100px;
+  resize: none;
+}
+
+.footer {
+  background: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.footer-logo {
+  color: #3b4fff;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.footer p {
+  margin: 20px 0;
+  color: #666;
+}
+
+.footer .links {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.footer .links a {
+  text-decoration: none;     
+  color: #666;               
+  font-size: 14px;
+}
+
